@@ -19,11 +19,11 @@ jobs:
         with:
           node-version: 20.
 
-    #   - name: Install dependencies
-    #     run: npm install --force
+      - name: Install dependencies
+        run: npm install --force
 
-    #   - name: Build Frontend
-    #     run: npm run build
+      - name: Build Frontend
+        run: npm run generate
     #     env:
     #       VITE_NAME_APP: ${{ vars.VITE_NAME_APP }}
 
